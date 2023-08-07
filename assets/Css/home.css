@@ -279,9 +279,12 @@ hr{
     padding: 0  15px 15px !important;
     position: relative;
     overflow: hidden;
+    
 }
 .port-img{
+
     transition: all .7s ease;
+    
 }
 .port-img img{
     width: 100%;
@@ -607,6 +610,60 @@ hr{
 }
 .main .port-item:hover  .port-overlay-cont{
     display: flex;
+}
+
+
+
+/* portfolio-boxed-4col */
+.gray-bg{
+    background-color: #eee;
+
+}
+.white-bg{
+    background-color: white;
+}
+.plr-30{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.port-filter{
+    margin: 0 0 45px 0;
+}
+.port-filter a{
+    text-decoration: none;
+    color: #101010;
+    border-color: #101010;
+    margin: 0 21px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+.port-filter .active-filter{
+    color: #101010;
+    border-color: #101010;
+}
+.port-filter a:hover{
+    color: #555;
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.item-img:hover .port-overlay-cont{
+    display: block;
+}
+.port-overlay-cont{
+    padding: 20px 10px;
 }
 
 @media screen and (max-width:480px) {
