@@ -19,6 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	box-sizing: border-box;
 	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -27,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 	
 }
 ol, ul {
