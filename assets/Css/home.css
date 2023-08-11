@@ -51,13 +51,13 @@
     background-position: center top;
 }
 .slider-1{
-    background-image: url(http://abcgomel.ru/haswell/images/revo-slider/slide_1_1.jpg);
+    background-image: url('../Img/slide_1_1.jpg');
 }
 .slider-2{
-    background-image: url(http://abcgomel.ru/haswell/images/revo-slider/slide_1_2.jpg);
+    background-image: url('../Img/slide_1_2.jpg');
 }
 .slider-3{
-    background-image: url(http://abcgomel.ru/haswell/images/revo-slider/slide_1_3.jpg);
+    background-image: url('../Img/slide_1_3.jpg');
 }
 .slider-content{
     position: absolute;
@@ -284,6 +284,9 @@ hr{
     overflow: hidden;
     
 }
+.port-item > div{
+    overflow: hidden;
+}
 .port-img{
 
     transition: all .7s ease;
@@ -346,7 +349,7 @@ hr{
     margin-left: 7px;
     margin-right: 7px;
 }
-.port-btn-cont a {
+.port-btn-cont a, .port-btn-cont div {
     color: #bebebe;
     font-size: 18px;
     text-decoration: none;
@@ -354,6 +357,7 @@ hr{
 .port-btn-cont a:hover{
     color: white;
 }
+
 
 
 .port-item:hover  .port-overlay-cont{
@@ -669,7 +673,7 @@ hr{
 .item-img:hover .port-overlay-cont{
     display: block;
 }
-.port-overlay-cont{
+.items .port-overlay-cont{
     padding: 20px 10px;
 }
 .item-img{
@@ -1110,6 +1114,11 @@ button.medium{
     
 }
 
+@media screen and (max-width:576px){
+    .port-item .port-overlay-cont{
+        padding: 20px;
+    }
+}
 
 @media screen and (max-width:480px) {
     .blog-carousel-1 .slider-content{
@@ -1376,6 +1385,10 @@ button.medium{
     
 }
 @media screen and  (min-width:1024px){
+
+    .accordion{
+        display: none !important;
+    }
     .slider-title, .slider-subtitle{
         font-size: 92px;
     }
@@ -1462,12 +1475,12 @@ button.medium{
         width: auto !important;
     }
 
-    .owl-nav .owl-prev{
+    .blog-carousel-2 .owl-nav .owl-prev{
         animation-name: slider-btn-prev;
         animation-duration: .3s;
        
     }
-    .owl-nav .owl-next{
+    .blog-carousel-2 .owl-nav .owl-next{
         animation-name: slider-btn-next;
         animation-duration: .3s;
     }
@@ -1490,4 +1503,12 @@ button.medium{
     .slider-3 .slider-content{
         right: 15%;
     }
+}
+
+
+.accordion{
+    display: none;
+}
+.accordion-toggle{
+    display: block;
 }

@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Haswell</title>
 
     <!-- Css files -->
     <link rel="stylesheet" href="assets/Css/main.css" />
     <link rel="stylesheet" href="assets/Css/reset.css" />
     <link rel="stylesheet" href="assets/Css/home.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/Img/logo-footer.png" type="image/x-icon">
 
     <!-- fonts -->
     <link
@@ -52,12 +55,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+
   </head>
   <body>
     <div class="container-full">
       <header class="header">
         <div class="header-container">
-          <div class="container-m-30 d-flex">
+          <div class="container-m-30 d-flex position-relative">
             <!-- logo -->
             <div class="logo-row">
               <div class="logo-container w-100">
@@ -73,9 +81,13 @@
               </div>
             </div>
 
+
+
+            
+
             <!-- menu -->
-            <div class="main-menu justify-content-end w-100">
-              <nav>
+            <div class="main-menu justify-content-end w-100 position-static">
+              <nav class="position-static">
                 <!-- menu list -->
                 <ul class="m-0 p-0 d-flex">
                   <!-- menu item -->
@@ -245,38 +257,884 @@
                   <!-- menu item -->
                   <li class="parent">
                     <a href="#"> SLIDERS </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li class="parent">
+                        <a href="#"> Revolution Slider </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="index.html"> Full Screen</a>
+                          </li>
+                          <li>
+                            <a href="slider-revo-full-width.html">
+                              Full Width</a
+                            >
+                          </li>
+                          <li>
+                            <a href="slider-revo-kenburns.html">
+                              Kenburns effect</a
+                            >
+                          </li>
+                          <li>
+                            <a href="slider-revo-html5-video.html">
+                              Html5 video</a
+                            >
+                          </li>
+                          <li>
+                            <a href="start-here.html">
+                              All demos <span class="label-new"> new </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="slider-flex.html"> Flex Slider </a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Static media </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="static-image.html"> Image</a>
+                          </li>
+                          <li>
+                            <a href="static-image-left.html"
+                              >Image 2
+                              <span class="label-new"> new </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="static-parallax.html"> Paralax</a>
+                          </li>
+
+                          <li>
+                            <a href="static-parallax2.html"
+                              >Paralax 2
+                              <span class="label-new"> new </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="static-text-rotator.html"> Text rotator</a>
+                          </li>
+
+                          <li>
+                            <a href="static-video.html"> Html5 video</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+                  <li class="parent big-menu">
                     <a href="#"> PAGES & FEATURES </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-2">
+                            <h5 class="title">HEADERS</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="index.html">Black Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index2.html">White Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index3.html">White No Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index-blog-2.html"
+                                  >Black No Transparent</a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-sticky-header-on-mobile.html"
+                                  >Sticky on Mobile
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-center.html"
+                                  >Header Center
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="static-image-left.html"
+                                  >Header Left
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-hiding-logo-header.html"
+                                  >Hiding Logo<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="one-page-index7.html"
+                                  >Header Below<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index10.html"
+                                  >Header Logo Change<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li><a href="index-shop.html">Header Shop</a></li>
+                              <li><a href="index-photo.html">Side Menu</a></li>
+                              <li>
+                                <a href="index-side-menu.html"
+                                  >Header Min Menu</a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-full-screen-menu.html"
+                                  >Min Menu 2</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-2">
+                            <h5 class="title">FOOTERS</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="index2.html#footer1">Footer 1</a>
+                              </li>
+                              <li><a href="index.html#footer2">Footer 2</a></li>
+                              <li>
+                                <a href="index4.html#footer3">Footer 3</a>
+                              </li>
+                              <li>
+                                <a href="index-cars.html#footer4">Footer 4</a>
+                              </li>
+                              <li>
+                                <a href="index-side-menu.html#footer5"
+                                  >Footer 5</a
+                                >
+                              </li>
+                              <li>
+                                <a href="agency.html#footer6"
+                                  >Footer 6<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="photographer.html#footer7"
+                                  >Footer 7<span class="label-new">new</span></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <h5 class="title">PAGES SAMPLES 1</h5>
+                            <ul class="p-0">
+                              <li><a href="typography.html">Typography</a></li>
+                              <li>
+                                <a href="grid-system.html">Grid System</a>
+                              </li>
+                              <li>
+                                <a href="layout-full-width.html"
+                                  >Layout Full width</a
+                                >
+                              </li>
+                              <li>
+                                <a href="layout-left-sidebar.html"
+                                  >Layout Left sidebar</a
+                                >
+                              </li>
+                              <li>
+                                <a href="layout-right-sidebar.html"
+                                  >Layout Right sidebar</a
+                                >
+                              </li>
+                              <li>
+                                <a href="under-construction.html"
+                                  >Under construction</a
+                                >
+                              </li>
+                              <li>
+                                <a href="coming-soon2.html"
+                                  >Under construction 2</a
+                                >
+                              </li>
+                              <li>
+                                <a href="maintenance-page.html"
+                                  >Maintenance Page</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <h5 class="title">PAGES SAMPLES 2</h5>
+                            <ul class="p-0">
+                              <li><a href="about-us.html">About Us</a></li>
+                              <li><a href="about-us-2.html">About Us 2</a></li>
+                              <li><a href="about-me.html">About Me</a></li>
+                              <li><a href="team.html">Team</a></li>
+                              <li><a href="services.html">Services</a></li>
+                              <li><a href="faq.html">FAQ</a></li>
+                              <li><a href="404.html">404 Error</a></li>
+                              <li>
+                                <a href="img-comp.html"
+                                  >Image Compare<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="login.html"
+                                  >Login / Register
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie1.html"
+                                  >Cookie 1<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie2.html"
+                                  >Cookie 2<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie-policy.html"
+                                  >Cookie Policy<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-2">
+                            <h5 class="title">PAGE TITLES</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="page-title-small-grey.html"
+                                  >Small Grey</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-small-white.html"
+                                  >Small White</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-small-dark.html"
+                                  >Small Dark</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-big-grey.html">Big Grey</a>
+                              </li>
+                              <li>
+                                <a href="page-title-big-white.html"
+                                  >Big White</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-big-dark.html">Big Dark</a>
+                              </li>
+                              <li>
+                                <a href="page-title-big-img.html">Big Image</a>
+                              </li>
+                              <li>
+                                <a href="page-title-large-img.html"
+                                  >Large Image</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
                   <li class="parent">
                     <a href="#"> PORTFOLIO </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li>
+                        <a href="portfolio-grid.html"> Portfolio grid </a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Boxed </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-boxed-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Boxed bordered </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-boxed-gut-2col.html"
+                              >2 Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-gut-3col.html"
+                              >3 Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-gut-4col.html"
+                              >4 Columns</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Wide </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-wide-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Wide bordered </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-wide-gut-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Masonry</a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-masonry-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#">Portfolio Single</a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li><a href="portfolio-single1.html">Single 1</a></li>
+                          <li><a href="portfolio-single2.html">Single 2</a></li>
+                          <li><a href="portfolio-single3.html">Single 3</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
                   <li class="parent">
                     <a href="#"> BLOG </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li class="parent">
+                        <a href="#"> Blog Masonry </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="blog-masonry-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="blog-masonry-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="blog-masonry-4col.html">4 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="blog-full-width.html">Blog Full Width</a>
+                      </li>
+
+                      <li>
+                        <a href="blog-small-image.html">Blog Small Image</a>
+                      </li>
+                      <li>
+                        <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#">Blog Single </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="blog-single-disqus.html"
+                              >Disqus Comments</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-facebook.html"
+                              >Facebook Comments</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-sidebar-right.html"
+                              >Right Sidebar</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-sidebar-left.html"
+                              >Left Sidebar</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-fullwidth.html">Fullwidth</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
                   <li class="parent">
                     <a href="#"> SHOP </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li><a href="index-shop.html">Home - Shop</a></li>
+                      <li><a href="shop-2-col.html">2 Columns</a></li>
+                      <li><a href="shop-3-col.html">3 Columns</a></li>
+                      <li><a href="shop-4-col.html">4 Columns</a></li>
+                      <li><a href="shop-single.html">Shop Single</a></li>
+                      <li><a href="shop-shoping-cart.html">Shoping Cart</a></li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+
+                  <li class="parent big-menu">
                     <a href="#"> SHORTCODES </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="animations.html"
+                                  ><i class="fa-solid fa-bug"></i> ANIMATIONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#accordions"
+                                  ><i class="fa-solid fa-bug"></i> ACCORDIONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#buttons"
+                                  ><i class="fa-solid fa-bug"></i> BUTTONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#carousels"
+                                  ><i class="fa-solid fa-bug"></i> CAROUSELS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#toggles"
+                                  ><i class="fa-solid fa-bug"></i> TOGGLES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#tabs"
+                                  ><i class="fa-solid fa-bug"></i> TABS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#labels"
+                                  ><i class="fa-solid fa-bug"></i> LABELS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#twitter-link"
+                                  ><i class="fa-solid fa-bug"></i> TWITTER
+                                  FEEDS</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="icons.html"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  ICONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#alerts"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  ALERTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#modals"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  MODALS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#pagination"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  PAGINATION</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#lightbox"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  LIGHTBOX</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#counters-charts"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  COUNTERS & CHARTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#progress-bars"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  PROGRESS BARS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#flickr-link"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  FLICKR FEEDS</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="typography.html#heading"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  HEADINGS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#dropcaps"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  DROPCAPS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#blockquotes"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  BLOCKQUOTES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#testimonials"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TESTIMONIALS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#pricing-tables">
+                                  <i class="fa-solid fa-cubes-stacked"></i>
+                                  PRICING TABLES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#cd-timeline"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TIMELINE</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#tables"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TABLES</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="typography.html#lists"
+                                  ><i class="fa-solid fa-seedling"></i> LISTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#code"
+                                  ><i class="fa-solid fa-seedling"></i> CODE</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#tooltips"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  TOOLTIPS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#popover"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  POPOVER</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#highlights"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  HIGHLIGHTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#dividers"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  DIVIDERS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#media"
+                                  ><i class="fa-solid fa-seedling"></i> MEDIA</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+                  <li id="menu-contact-info-big" class="parent big-menu">
                     <a href="#"> CONTACT </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated m-0">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-3">
+                            <h5 class="title">CONTACT PAGES</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="contact.html">Contact Version 1</a>
+                              </li>
+                              <li>
+                                <a href="contact2.html">Contact Version 2</a>
+                              </li>
+                              <li>
+                                <a href="contact-recaptcha.html"
+                                  >Contact reCAPTCHA<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact2-recaptcha.html"
+                                  >Contact 2 reCAPTCHA<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact-embed.html"
+                                  >Contact Embed<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact2-embed.html"
+                                  >Contact 2 Embed<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="col-md-3 menu-contact-info">
+                            <ul class="contact-list">
+                              <li class="contact-loc clearfix d-flex mb-3">
+                                <div class="loc-icon-container">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  555 California str, Suite 100
+                                </div>
+                              </li>
+
+                              <li class="contact-phone clearfix d-flex mb-3">
+                                <div class="loc-icon-container">
+                                  <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  1-32-312-22, 1-32-112-22
+                                </div>
+                              </li>
+
+                              <li class="contact-mail clearfix d-flex">
+                                <div class="loc-icon-container">
+                                  <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  <a
+                                    class="a-mail"
+                                    href="mailto:info@haswell.com"
+                                    >info@haswell.com</a
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div
+                            class="col-md-6 menu-map-container d-flex justify-content-center"
+                          >
+                            <!-- Google Maps -->
+                            <div
+                              class="google-map-container d-flex justify-content-center"
+                            >
+                              <img src="assets/Img/map-line.png" alt="alt" />
+                            </div>
+                            <!-- Google Maps / End -->
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </nav>
             </div>
+
             <div class="header-search-button">
               <button class="search-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
+            </div>
+          </div>
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="cd-search animate__animated animate__fadeIn">
+            <form action="" class="w-100 h-100 d-flex">
+              <input type="text" placeholder="Search..." />
+            </form>
+            <div class="search-close" onmouseenter="rotateElement()">
+              <i class="fa-solid fa-xmark"></i>
             </div>
           </div>
         </div>
@@ -388,8 +1246,8 @@
       <section id="about">
         <div class="container-md fes1-cont">
           <div class="row mx-0">
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
-              <div class="img-cont">
+            <div class="col-12 col-lg-4 d-flex justify-content-center" data-aos="fade-left">
+              <div class="img-cont" >
                 <img src="assets/Img/phone-with-arrow.png" alt="" />
               </div>
             </div>
@@ -544,7 +1402,7 @@
               <div class="fes1-box fes4-box">
                 <div class="d-flex mb-4">
                   <div class="box-icon">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <i class="fa-brands fa-docker"></i>
                   </div>
                   <div class="box-content">
                     <h3>PRODUCTION</h3>
@@ -563,7 +1421,7 @@
               <div class="fes1-box fes4-box">
                 <div class="d-flex mb-4">
                   <div class="box-icon">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <i class="fa-brands fa-dropbox"></i>
                   </div>
                   <div class="box-content">
                     <h3>BRANDING</h3>
@@ -582,7 +1440,7 @@
               <div class="fes1-box fes4-box">
                 <div class="d-flex mb-4">
                   <div class="box-icon">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <i class="fa-brands fa-squarespace"></i>
                   </div>
                   <div class="box-content">
                     <h3>WEB DESIGN</h3>
@@ -601,7 +1459,7 @@
               <div class="fes1-box fes4-box">
                 <div class="d-flex mb-4">
                   <div class="box-icon">
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <i class="fa-solid fa-image"></i>
                   </div>
                   <div class="box-content">
                     <h3>PHOTOGRAPHY</h3>
@@ -623,14 +1481,16 @@
         <div class="position-relative">
           <div class="row mx-0">
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a  href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img">
                   <img src="assets/Img/projects-5.jpg" alt="" />
+
+                
+
                 </div>
 
                 <div class="port-overlay-cont">
-                  <div
-                    class="port-title-cont animate__animated animate__fadeInDown"
+                  <div class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
                       <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
@@ -641,22 +1501,44 @@
                       <a href="#">media</a>
                     </span>
                   </div>
-                  <div
-                    class="port-btn-cont animate__animated animate__fadeInDown"
+                  <div  class="port-btn-cont d-flex animate__animated animate__fadeInDown"
                   >
-                    <a href="#" class="me-4">
-                      <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
-                    </a>
+                    <div class="me-4">
+                      <i class="fa-solid fa-magnifying-glass fa-rotate-90" 
+                      data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                    </div>
                     <a href="portfolio-single1.html">
-                      <i class="fa-solid fa-link"></i>
+                      <i class="fa-solid fa-link" ></i>
                     </a>
+
+
+                    
+
                   </div>
                 </div>
-              </a>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered position-relative">
+
+                
+                  
+                    <div class="modal-content animate__animated animate__flipInY animate__slow">
+                      
+                      <img src="assets/Img/projects-5.jpg" alt="">
+                
+                        
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
             </div>
 
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img h-100">
                   <img src="assets/Img/projects-3.jpg" alt="" />
                 </div>
@@ -666,32 +1548,44 @@
                     class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
-                      <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
+                      <a href="portfolio-single1.html"> CALENDAR </a>
                     </h3>
                     <span>
-                      <a href="#">ui elements</a>
+                      <a href="#">photography</a>
                       <span class="slash-divider">/</span>
                       <a href="#">media</a>
                     </span>
                   </div>
                   <div
-                    class="port-btn-cont animate__animated animate__fadeInDown"
+                    class="port-btn-cont d-flex animate__animated animate__fadeInDown"
                   >
-                    <a href="#" class="me-4">
-                      <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
-                    </a>
+                  <div class="me-4">
+                    <i class="fa-solid fa-magnifying-glass fa-rotate-90" 
+                    data-bs-toggle="modal" data-bs-target="#exampleModal-2"></i>
+                  </div>
                     <a href="portfolio-single1.html">
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
                 </div>
-              </a>
+
+                <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered position-relative">
+                    <div class="modal-content animate__animated animate__flipInY animate__slow">
+                      
+                      <img src="assets/Img/projects-3.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
+            
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img h-100">
-                  <img src="assets/Img/projects-5.jpg" alt="" />
+                  <img src="assets/Img/projects-1.jpg" alt="" />
                 </div>
 
                 <div class="port-overlay-cont">
@@ -699,32 +1593,48 @@
                     class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
-                      <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
+                      <a href="portfolio-single1.html"> EYES OF THE CAR </a>
                     </h3>
                     <span>
-                      <a href="#">ui elements</a>
+                      <a href="#">branding</a>
                       <span class="slash-divider">/</span>
-                      <a href="#">media</a>
+                      <a href="#">marketing</a>
                     </span>
                   </div>
                   <div
-                    class="port-btn-cont animate__animated animate__fadeInDown"
+                    class="port-btn-cont d-flex animate__animated animate__fadeInDown"
                   >
-                    <a href="#" class="me-4">
-                      <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
-                    </a>
+                  <div class="me-4">
+                    <i class="fa-solid fa-magnifying-glass fa-rotate-90" 
+                    data-bs-toggle="modal" data-bs-target="#exampleModal-3"></i>
+                  </div>
                     <a href="portfolio-single1.html">
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
                 </div>
-              </a>
+
+
+                <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered position-relative">
+                    <div class="modal-content animate__animated animate__flipInY animate__slow">
+                      
+                      <img src="assets/Img/projects-1.jpg" alt="">
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
 
+
+
+
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img h-100">
-                  <img src="assets/Img/projects-3.jpg" alt="" />
+                  <img src="assets/Img/projects-6.jpg" alt="" />
                 </div>
 
                 <div class="port-overlay-cont">
@@ -732,12 +1642,12 @@
                     class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
-                      <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
+                      <a href="portfolio-single1.html"> NOW IS NOW </a>
                     </h3>
                     <span>
-                      <a href="#">ui elements</a>
+                      <a href="#">design</a>
                       <span class="slash-divider">/</span>
-                      <a href="#">media</a>
+                      <a href="#">photography</a>
                     </span>
                   </div>
                   <div
@@ -751,13 +1661,13 @@
                     </a>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img h-100">
-                  <img src="assets/Img/projects-5.jpg" alt="" />
+                  <img src="assets/Img/projects-7.jpg" alt="" />
                 </div>
 
                 <div class="port-overlay-cont">
@@ -765,7 +1675,7 @@
                     class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
-                      <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
+                      <a href="portfolio-single1.html"> EYES OF THE CAR </a>
                     </h3>
                     <span>
                       <a href="#">ui elements</a>
@@ -784,13 +1694,13 @@
                     </a>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="col-6 col-lg-4 port-item ps-0">
-              <a href="portfolio-single1.html" class="position-relative">
+              <div class="position-relative">
                 <div class="port-img h-100">
-                  <img src="assets/Img/projects-3.jpg" alt="" />
+                  <img src="assets/Img/projects-4.jpg" alt="" />
                 </div>
 
                 <div class="port-overlay-cont">
@@ -798,10 +1708,10 @@
                     class="port-title-cont animate__animated animate__fadeInDown"
                   >
                     <h3>
-                      <a href="portfolio-single1.html"> MINIMALISM BOOKS </a>
+                      <a href="portfolio-single1.html"> LOVE </a>
                     </h3>
                     <span>
-                      <a href="#">ui elements</a>
+                      <a href="#">branding</a>
                       <span class="slash-divider">/</span>
                       <a href="#">media</a>
                     </span>
@@ -817,7 +1727,7 @@
                     </a>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -844,8 +1754,7 @@
           <div class="row mx-0">
             <div class="col-12 col-lg-7 mb-3">
               <div class="row client-row row-border">
-                <div
-                  class="col-6 col-md-3 d-flex justify-content-center align-items-center border-0"
+                <div class="col-6 col-md-3 d-flex justify-content-center align-items-center border-0"
                 >
                   <img
                     style="width: 94px; height: 100px"
@@ -868,7 +1777,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-2.png"
+                    src="assets/Img/client-3.png"
                     alt=""
                   />
                 </div>
@@ -878,7 +1787,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-2.png"
+                    src="assets/Img/client-4.png"
                     alt=""
                   />
                 </div>
@@ -889,7 +1798,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-1.png"
+                    src="assets/Img/client-.png"
                     alt=""
                   />
                 </div>
@@ -899,7 +1808,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-1.png"
+                    src="assets/Img/client-6.png"
                     alt=""
                   />
                 </div>
@@ -909,7 +1818,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-1.png"
+                    src="assets/Img/client-7.png"
                     alt=""
                   />
                 </div>
@@ -919,7 +1828,7 @@
                 >
                   <img
                     style="width: 94px; height: 100px"
-                    src="assets/Img/clinet-1.png"
+                    src="assets/Img/client-8.png"
                     alt=""
                   />
                 </div>
@@ -957,9 +1866,7 @@
                   <div class="fes1-box fes4-box">
                     <div class="d-flex mb-4">
                       <div class="box-icon me-3">
-                        <i
-                          class="fa-solid fa-screwdriver-wrench text-white"
-                        ></i>
+                        <i class="fa-regular fa-lightbulb text-white"></i>
                       </div>
                       <div class="box-content">
                         <h3 class="text-white">PLANING</h3>
@@ -973,9 +1880,7 @@
                   <div class="fes1-box fes4-box">
                     <div class="d-flex mb-4">
                       <div class="box-icon me-3">
-                        <i
-                          class="fa-solid fa-screwdriver-wrench text-white"
-                        ></i>
+                        <i class="fa-solid fa-gear text-white"></i>
                       </div>
                       <div class="box-content">
                         <h3 class="text-white">DEVELOPMENT</h3>
@@ -989,9 +1894,7 @@
                   <div class="fes1-box fes4-box">
                     <div class="d-flex mb-4">
                       <div class="box-icon me-3">
-                        <i
-                          class="fa-solid fa-screwdriver-wrench text-white"
-                        ></i>
+                        <i class="fa-solid fa-laptop text-white"></i>
                       </div>
                       <div class="box-content">
                         <h3 class="text-white">DESIGNING</h3>
@@ -1005,9 +1908,7 @@
                   <div class="fes1-box fes4-box">
                     <div class="d-flex mb-4">
                       <div class="box-icon me-3">
-                        <i
-                          class="fa-solid fa-screwdriver-wrench text-white"
-                        ></i>
+                        <i class="fa-regular fa-paper-plane text-white"></i>
                       </div>
                       <div class="box-content">
                         <h3 class="text-white">LAUNCH</h3>
@@ -1046,9 +1947,6 @@
         <a href="about-us.html" class="port-view-more"> VIEW ALL TEAM </a>
       </section>
 
-      <section class="counter">
-        <div class="container"></div>
-      </section>
 
       <hr />
 
@@ -1209,7 +2107,7 @@
             <div class="col-12 col-md-6 col-lg-4 pb-70">
               <div class="post-prev-img">
                 <a href="blog-single-sidebar-right.html">
-                  <img src="assets/Img/post-prev-1.jpg" alt="" />
+                  <img src="assets/Img/post-prev-2.jpg" alt="" />
                 </a>
               </div>
               <div class="post-prev-title">
@@ -1266,7 +2164,7 @@
             <div class="col-12 col-md-6 col-lg-4 pb-70">
               <div class="post-prev-img">
                 <a href="blog-single-sidebar-right.html">
-                  <img src="assets/Img/post-prev-1.jpg" alt="" />
+                  <img src="assets/Img/post-prev-3.jpg" alt="" />
                 </a>
               </div>
               <div class="post-prev-title">
@@ -1464,6 +2362,15 @@
               <a href="#">
                 <i class="fa-brands fa-twitter"></i>
               </a>
+              <a href="#">
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-dribbble"></i>
+              </a>
             </div>
             <div class="left">
               <a href="#"> © HASWELL 2023 </a>
@@ -1471,6 +2378,12 @@
           </div>
         </div>
       </footer>
+
+      <div id="back-top">
+        <a href="#top">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
     </div>
 
     <!-- <dir>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, quas! Quisquam pariatur, nisi quas, natus quam blanditiis sequi perspiciatis dignissimos magni officia magnam voluptas maxime consequuntur totam ut optio error quasi repellendus delectus culpa vero sint cupiditate porro. Debitis repudiandae placeat accusamus eligendi atque accusantium laboriosam dolores deserunt a modi, aperiam explicabo vero omnis minima, impedit numquam reprehenderit provident natus tempore nisi ratione reiciendis odit aliquid. Mollitia, nihil repellat dolorem necessitatibus itaque ullam culpa cupiditate esse obcaecati porro minima? Est magnam dolore blanditiis molestiae ipsa dolorem quo beatae sapiente et neque laudantium voluptatem maxime similique porro officia qui totam laboriosam, delectus perspiciatis necessitatibus enim! Dolor id aliquam esse animi nihil consequatur officia odit delectus, debitis magni eius autem, soluta vero assumenda quaerat! Veniam ab perferendis natus aperiam aut aspernatur iste maiores pariatur magni possimus obcaecati, ut ad, suscipit sapiente necessitatibus debitis quisquam ipsa repellat vel eaque, nesciunt temporibus ullam laboriosam voluptate? Reiciendis neque deleniti qui ipsa possimus assumenda ipsum iste dolor quidem quas, id commodi provident consectetur non veritatis voluptatem perferendis sunt ipsam quibusdam animi, beatae sequi sed, omnis natus? Exercitationem omnis iusto sit sed cum laborum accusamus non quas, praesentium qui inventore, voluptatum consequuntur, eaque expedita nemo deleniti aliquid? Illum nesciunt distinctio similique rerum eveniet asperiores ad at, cupiditate suscipit aperiam, repellendus harum eum aut sint, rem quasi. Minima, exercitationem? Repellat molestiae quas id culpa odit optio eveniet sit explicabo similique consequatur debitis repudiandae dolorum recusandae velit corporis aliquid, reiciendis ducimus cum dicta ullam natus libero? Necessitatibus vitae adipisci cum aliquam ea porro saepe, praesentium, non veniam corporis ab ratione quam. Tempora error porro perferendis quibusdam placeat eveniet tempore pariatur, unde, illum debitis accusantium sequi? Reprehenderit, exercitationem repellat adipisci libero enim reiciendis fugiat laboriosam culpa commodi officia eligendi ipsam! Est quasi quod adipisci, dolores magnam sit cumque quisquam eligendi vero, maxime maiores odit saepe enim ullam natus temporibus laudantium? Numquam laborum similique repudiandae repellendus, suscipit rem eius laudantium. Rem odit architecto repudiandae mollitia odio blanditiis possimus, maxime aliquam id magnam sapiente aperiam neque exercitationem dignissimos labore eos deleniti nobis dolorum? Magnam quae veniam quo tempore aliquid, fuga voluptas modi unde. Veritatis quis id maiores quo, inventore nostrum itaque quaerat consequuntur totam tenetur odit accusamus consequatur vitae sunt possimus asperiores repellendus ullam cumque explicabo mollitia quisquam rerum. Fugit nihil odit mollitia dolorem, cumque autem aspernatur, adipisci architecto aliquid, dignissimos natus harum ea odio exercitationem. Reprehenderit illo et aperiam corrupti, rerum distinctio veritatis quae odit deserunt quisquam exercitationem soluta nam dolorem. Tempore debitis, eos vitae tenetur quasi architecto ducimus animi error expedita ipsum adipisci libero autem vel, distinctio perspiciatis nihil dolores! Pariatur quae ad obcaecati nemo provident nesciunt maxime distinctio quam asperiores fuga, sint a fugit, totam adipisci accusamus eos dicta voluptates, sapiente corrupti. Vero incidunt dolores iure, autem quam mollitia accusantium assumenda quia beatae fuga omnis consequatur, eligendi perspiciatis illum quas, natus laborum facilis ratione odit officia dignissimos quibusdam? Ea quidem accusantium repudiandae delectus eos enim ipsum vel accusamus eveniet dolore tempore, ut quasi necessitatibus voluptatum deleniti expedita tenetur error inventore voluptatem in. Modi, commodi at et corporis iste nihil assumenda repudiandae sed nam vel dignissimos, vero nesciunt sit quam fuga inventore odio nulla dicta aspernatur explicabo quod dolore expedita. Beatae, eligendi vero, molestiae doloribus dolorem consequatur veniam ut architecto dicta voluptate voluptatibus quibusdam possimus at. Alias consequatur nisi, adipisci cum ipsum aliquid voluptatem non totam consequuntur blanditiis! Esse ut temporibus deleniti rerum quia neque incidunt consectetur non fuga asperiores exercitationem assumenda fugiat repellendus vel molestias nisi perspiciatis error consequuntur mollitia explicabo voluptates sed, aspernatur modi. Incidunt eum rem reiciendis libero in aliquid odio eius numquam dicta sunt tenetur, consectetur corrupti adipisci quo et ut, placeat dolores quaerat, ipsam tempora mollitia. Nulla dolores quis ex autem harum inventore, repudiandae vitae accusamus eligendi vero aut error, tenetur minima non reiciendis. Vero corporis eaque minima enim officiis. Omnis magnam rem quam incidunt ea ab. Sed quidem, id, eum est cum ab voluptatibus nulla deleniti temporibus delectus veniam quia rem at esse commodi facere architecto soluta quasi dolores debitis aliquid. Quam omnis unde ea repudiandae quos quas quod obcaecati fugiat enim fuga. Minima possimus esse ad hic dolores nulla voluptates, impedit necessitatibus sequi perferendis alias architecto velit et fugit harum quia quasi molestias nisi vel animi nemo dicta autem! Laborum, sunt quidem repudiandae repellendus atque beatae eius illum cupiditate maxime, enim consectetur totam nam vel recusandae et ullam iusto accusamus. Sequi rem ipsum ipsam excepturi vitae delectus dolores, possimus itaque earum saepe maiores tempore unde aliquid, libero facilis molestias, aut culpa. Odit sit quidem possimus nemo vero error dolorem praesentium consequuntur velit. Ducimus ut facere, aperiam reiciendis at fuga adipisci amet ex eligendi magni rerum quas alias, dolorem maiores error neque molestias cupiditate. Quos neque tenetur modi assumenda iusto provident officiis id, nemo cum minus illo veritatis dolor esse nam aliquid praesentium eligendi voluptas qui fugit culpa facilis? Dolores, reiciendis possimus nemo pariatur eos repudiandae, tenetur necessitatibus aliquid alias nulla obcaecati? Harum praesentium tenetur enim, eligendi, beatae eaque debitis neque officiis repudiandae fugit blanditiis cupiditate ut incidunt. Accusantium reiciendis est repellat temporibus sapiente non voluptate cupiditate dolore illo! Aut accusamus quaerat porro suscipit ipsum natus, iure harum illum autem! Odio voluptatem dolor maiores est beatae aut molestiae doloremque error corrupti officiis eos quam, molestias reiciendis quos explicabo nihil quaerat eum unde, hic nobis provident dolorem fuga, mollitia delectus! Officia laboriosam quas suscipit eveniet deserunt! Illum saepe maiores ullam debitis earum exercitationem hic repellendus unde voluptas dolorum, optio asperiores autem. Soluta praesentium, possimus velit amet placeat modi rem quos, quisquam facere quidem, molestias magnam. Modi nisi facilis iusto incidunt laborum temporibus. Facere mollitia minus accusantium qui provident consequuntur, tenetur non, eos autem, accusamus dolor saepe! Pariatur, cupiditate consequuntur ea amet delectus minima alias iste doloribus fuga dignissimos eveniet, natus veritatis dolores nulla corporis soluta eius blanditiis. Impedit consequatur cupiditate eaque deleniti asperiores alias perferendis. Ipsam hic, beatae inventore sint nesciunt ipsum rem consectetur voluptatem quasi omnis tenetur alias nobis voluptates. Dicta, dolores. Quos provident id vitae soluta omnis necessitatibus error et, quae mollitia vero.</dir> -->
@@ -1498,5 +2411,17 @@
         });
       });
     </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init(
+        {
+          once:true
+        }
+      );
+    </script>
+
+    <script src="assets/Js/app.js"></script>
   </body>
 </html>
