@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Haswell</title>
 
     <!-- Css files -->
     <link rel="stylesheet" href="assets/Css/main.css" />
@@ -37,6 +37,9 @@
       crossorigin="anonymous"
     />
 
+      <!-- favicon -->
+      <link rel="shortcut icon" href="assets/Img/logo-footer.png" type="image/x-icon">
+
     
     <!-- Animate -->
     <link
@@ -58,7 +61,7 @@
     <div class="container-full portfolio">
       <header class="header">
         <div class="header-container">
-          <div class="container-m-30 d-flex">
+          <div class="container-m-30 d-flex position-relative">
             <!-- logo -->
             <div class="logo-row">
               <div class="logo-container w-100">
@@ -75,8 +78,8 @@
             </div>
 
             <!-- menu -->
-            <div class="main-menu justify-content-end w-100">
-              <nav>
+            <div class="main-menu justify-content-end w-100 position-static">
+              <nav class="position-static">
                 <!-- menu list -->
                 <ul class="m-0 p-0 d-flex">
                   <!-- menu item -->
@@ -87,12 +90,12 @@
                       class="dropdown flex-column animate__fadeIn animate__animated"
                     >
                       <li class="parent">
-                        <a href="#" class="current"> Home - Corporate </a>
+                        <a href="#" > Home - Corporate </a>
                         <ul
                           class="dropdownSecond flex-column animate__fadeIn animate__animated"
                         >
                           <li>
-                            <a href="index.html" class="current">
+                            <a href="index.html" >
                               Corporate 1</a
                             >
                           </li>
@@ -246,38 +249,884 @@
                   <!-- menu item -->
                   <li class="parent">
                     <a href="#"> SLIDERS </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li class="parent">
+                        <a href="#"> Revolution Slider </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="index.html"> Full Screen</a>
+                          </li>
+                          <li>
+                            <a href="slider-revo-full-width.html">
+                              Full Width</a
+                            >
+                          </li>
+                          <li>
+                            <a href="slider-revo-kenburns.html">
+                              Kenburns effect</a
+                            >
+                          </li>
+                          <li>
+                            <a href="slider-revo-html5-video.html">
+                              Html5 video</a
+                            >
+                          </li>
+                          <li>
+                            <a href="start-here.html">
+                              All demos <span class="label-new"> new </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="slider-flex.html"> Flex Slider </a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Static media </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="static-image.html"> Image</a>
+                          </li>
+                          <li>
+                            <a href="static-image-left.html"
+                              >Image 2
+                              <span class="label-new"> new </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="static-parallax.html"> Paralax</a>
+                          </li>
+
+                          <li>
+                            <a href="static-parallax2.html"
+                              >Paralax 2
+                              <span class="label-new"> new </span>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="static-text-rotator.html"> Text rotator</a>
+                          </li>
+
+                          <li>
+                            <a href="static-video.html"> Html5 video</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+                  <li class="parent big-menu">
                     <a href="#"> PAGES & FEATURES </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-2">
+                            <h5 class="title">HEADERS</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="index.html">Black Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index2.html">White Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index3.html">White No Transparent</a>
+                              </li>
+                              <li>
+                                <a href="index-blog-2.html"
+                                  >Black No Transparent</a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-sticky-header-on-mobile.html"
+                                  >Sticky on Mobile
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-center.html"
+                                  >Header Center
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="static-image-left.html"
+                                  >Header Left
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-hiding-logo-header.html"
+                                  >Hiding Logo<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="one-page-index7.html"
+                                  >Header Below<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="index10.html"
+                                  >Header Logo Change<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li><a href="index-shop.html">Header Shop</a></li>
+                              <li><a href="index-photo.html">Side Menu</a></li>
+                              <li>
+                                <a href="index-side-menu.html"
+                                  >Header Min Menu</a
+                                >
+                              </li>
+                              <li>
+                                <a href="index-full-screen-menu.html"
+                                  >Min Menu 2</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-2">
+                            <h5 class="title">FOOTERS</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="index2.html#footer1">Footer 1</a>
+                              </li>
+                              <li><a href="index.html#footer2">Footer 2</a></li>
+                              <li>
+                                <a href="index4.html#footer3">Footer 3</a>
+                              </li>
+                              <li>
+                                <a href="index-cars.html#footer4">Footer 4</a>
+                              </li>
+                              <li>
+                                <a href="index-side-menu.html#footer5"
+                                  >Footer 5</a
+                                >
+                              </li>
+                              <li>
+                                <a href="agency.html#footer6"
+                                  >Footer 6<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="photographer.html#footer7"
+                                  >Footer 7<span class="label-new">new</span></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <h5 class="title">PAGES SAMPLES 1</h5>
+                            <ul class="p-0">
+                              <li><a href="typography.html">Typography</a></li>
+                              <li>
+                                <a href="grid-system.html">Grid System</a>
+                              </li>
+                              <li>
+                                <a href="layout-full-width.html"
+                                  >Layout Full width</a
+                                >
+                              </li>
+                              <li>
+                                <a href="layout-left-sidebar.html"
+                                  >Layout Left sidebar</a
+                                >
+                              </li>
+                              <li>
+                                <a href="layout-right-sidebar.html"
+                                  >Layout Right sidebar</a
+                                >
+                              </li>
+                              <li>
+                                <a href="under-construction.html"
+                                  >Under construction</a
+                                >
+                              </li>
+                              <li>
+                                <a href="coming-soon2.html"
+                                  >Under construction 2</a
+                                >
+                              </li>
+                              <li>
+                                <a href="maintenance-page.html"
+                                  >Maintenance Page</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <h5 class="title">PAGES SAMPLES 2</h5>
+                            <ul class="p-0">
+                              <li><a href="about-us.html">About Us</a></li>
+                              <li><a href="about-us-2.html">About Us 2</a></li>
+                              <li><a href="about-me.html">About Me</a></li>
+                              <li><a href="team.html">Team</a></li>
+                              <li><a href="services.html">Services</a></li>
+                              <li><a href="faq.html">FAQ</a></li>
+                              <li><a href="404.html">404 Error</a></li>
+                              <li>
+                                <a href="img-comp.html"
+                                  >Image Compare<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="login.html"
+                                  >Login / Register
+                                  <span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie1.html"
+                                  >Cookie 1<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie2.html"
+                                  >Cookie 2<span class="label-new">new</span></a
+                                >
+                              </li>
+                              <li>
+                                <a href="cookie-policy.html"
+                                  >Cookie Policy<span class="label-new"
+                                    >new</span
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-2">
+                            <h5 class="title">PAGE TITLES</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="page-title-small-grey.html"
+                                  >Small Grey</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-small-white.html"
+                                  >Small White</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-small-dark.html"
+                                  >Small Dark</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-big-grey.html">Big Grey</a>
+                              </li>
+                              <li>
+                                <a href="page-title-big-white.html"
+                                  >Big White</a
+                                >
+                              </li>
+                              <li>
+                                <a href="page-title-big-dark.html">Big Dark</a>
+                              </li>
+                              <li>
+                                <a href="page-title-big-img.html">Big Image</a>
+                              </li>
+                              <li>
+                                <a href="page-title-large-img.html"
+                                  >Large Image</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
                   <li class="parent ">
                     <a href="#"> PORTFOLIO </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li>
+                        <a href="portfolio-grid.html" > Portfolio grid </a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#" > Boxed </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-boxed-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-4col.html" >4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Boxed bordered </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-boxed-gut-2col.html"
+                              >2 Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-gut-3col.html"
+                              >3 Columns</a
+                            >
+                          </li>
+                          <li>
+                            <a href="portfolio-boxed-gut-4col.html"
+                              >4 Columns</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Wide </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-wide-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Wide bordered </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-wide-gut-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-wide-gut-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#"> Masonry</a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="portfolio-masonry-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-4col.html">4 Columns</a>
+                          </li>
+                          <li>
+                            <a href="portfolio-masonry-5col.html">5 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#">Portfolio Single</a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li><a href="portfolio-single1.html">Single 1</a></li>
+                          <li><a href="portfolio-single2.html">Single 2</a></li>
+                          <li><a href="portfolio-single3.html">Single 3</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent ">
+                  <li class="parent">
                     <a href="#"> BLOG </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li class="parent">
+                        <a href="#"> Blog Masonry </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="blog-masonry-2col.html">2 Columns</a>
+                          </li>
+                          <li>
+                            <a href="blog-masonry-3col.html">3 Columns</a>
+                          </li>
+                          <li>
+                            <a href="blog-masonry-4col.html">4 Columns</a>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a href="blog-full-width.html">Blog Full Width</a>
+                      </li>
+
+                      <li>
+                        <a href="blog-small-image.html">Blog Small Image</a>
+                      </li>
+                      <li>
+                        <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                      </li>
+
+                      <li class="parent">
+                        <a href="#">Blog Single </a>
+                        <ul
+                          class="dropdownSecond flex-column animate__fadeIn animate__animated"
+                        >
+                          <li>
+                            <a href="blog-single-disqus.html"
+                              >Disqus Comments</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-facebook.html"
+                              >Facebook Comments</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-sidebar-right.html"
+                              >Right Sidebar</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-sidebar-left.html"
+                              >Left Sidebar</a
+                            >
+                          </li>
+                          <li>
+                            <a href="blog-single-fullwidth.html">Fullwidth</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
                   <li class="parent current">
                     <a href="#"> SHOP </a>
+
+                    <ul
+                      class="dropdown flex-column animate__fadeIn animate__animated"
+                    >
+                      <li><a href="index-shop.html " >Home - Shop</a></li>
+                      <li><a href="shop-2-col.html">2 Columns</a></li>
+                      <li><a href="shop-3-col.html">3 Columns</a></li>
+                      <li><a href="shop-4-col.html">4 Columns</a></li>
+                      <li><a href="shop-single.html" >Shop Single</a></li>
+                      <li><a href="shop-shoping-cart.html" class="current">Shoping Cart</a></li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+
+                  <li class="parent big-menu">
                     <a href="#"> SHORTCODES </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="animations.html"
+                                  ><i class="fa-solid fa-bug"></i> ANIMATIONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#accordions"
+                                  ><i class="fa-solid fa-bug"></i> ACCORDIONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#buttons"
+                                  ><i class="fa-solid fa-bug"></i> BUTTONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#carousels"
+                                  ><i class="fa-solid fa-bug"></i> CAROUSELS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#toggles"
+                                  ><i class="fa-solid fa-bug"></i> TOGGLES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#tabs"
+                                  ><i class="fa-solid fa-bug"></i> TABS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#labels"
+                                  ><i class="fa-solid fa-bug"></i> LABELS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#twitter-link"
+                                  ><i class="fa-solid fa-bug"></i> TWITTER
+                                  FEEDS</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="icons.html"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  ICONS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#alerts"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  ALERTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#modals"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  MODALS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#pagination"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  PAGINATION</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#lightbox"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  LIGHTBOX</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#counters-charts"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  COUNTERS & CHARTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#progress-bars"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  PROGRESS BARS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#flickr-link"
+                                  ><i class="fa-regular fa-paper-plane"></i>
+                                  FLICKR FEEDS</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="typography.html#heading"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  HEADINGS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#dropcaps"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  DROPCAPS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#blockquotes"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  BLOCKQUOTES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#testimonials"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TESTIMONIALS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#pricing-tables">
+                                  <i class="fa-solid fa-cubes-stacked"></i>
+                                  PRICING TABLES</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#cd-timeline"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TIMELINE</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#tables"
+                                  ><i class="fa-solid fa-cubes-stacked"></i>
+                                  TABLES</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="box col-3">
+                            <ul class="p-0">
+                              <li>
+                                <a href="typography.html#lists"
+                                  ><i class="fa-solid fa-seedling"></i> LISTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#code"
+                                  ><i class="fa-solid fa-seedling"></i> CODE</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#tooltips"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  TOOLTIPS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#popover"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  POPOVER</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#highlights"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  HIGHLIGHTS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="typography.html#dividers"
+                                  ><i class="fa-solid fa-seedling"></i>
+                                  DIVIDERS</a
+                                >
+                              </li>
+                              <li>
+                                <a href="shortcodes.html#media"
+                                  ><i class="fa-solid fa-seedling"></i> MEDIA</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <!-- menu item -->
-                  <li class="parent">
+                  <li id="menu-contact-info-big" class="parent big-menu">
                     <a href="#"> CONTACT </a>
+
+                    <ul class="dropdown animate__fadeIn animate__animated m-0">
+                      <li class="w-100">
+                        <div class="menu-dropdown-container row mx-0 w-100">
+                          <div class="box col-3">
+                            <h5 class="title">CONTACT PAGES</h5>
+                            <ul class="p-0">
+                              <li>
+                                <a href="contact.html">Contact Version 1</a>
+                              </li>
+                              <li>
+                                <a href="contact2.html">Contact Version 2</a>
+                              </li>
+                              <li>
+                                <a href="contact-recaptcha.html"
+                                  >Contact reCAPTCHA<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact2-recaptcha.html"
+                                  >Contact 2 reCAPTCHA<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact-embed.html"
+                                  >Contact Embed<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                              <li>
+                                <a href="contact2-embed.html"
+                                  >Contact 2 Embed<span class="label-new"
+                                    >NEW</span
+                                  ></a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="col-md-3 menu-contact-info">
+                            <ul class="contact-list">
+                              <li class="contact-loc clearfix d-flex mb-3">
+                                <div class="loc-icon-container">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  555 California str, Suite 100
+                                </div>
+                              </li>
+
+                              <li class="contact-phone clearfix d-flex mb-3">
+                                <div class="loc-icon-container">
+                                  <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  1-32-312-22, 1-32-112-22
+                                </div>
+                              </li>
+
+                              <li class="contact-mail clearfix d-flex">
+                                <div class="loc-icon-container">
+                                  <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div
+                                  class="menu-contact-text-container d-flex align-items-center"
+                                >
+                                  <a
+                                    class="a-mail"
+                                    href="mailto:info@haswell.com"
+                                    >info@haswell.com</a
+                                  >
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div
+                            class="col-md-6 menu-map-container d-flex justify-content-center"
+                          >
+                            <!-- Google Maps -->
+                            <div
+                              class="google-map-container d-flex justify-content-center"
+                            >
+                              <img src="assets/Img/map-line.png" alt="alt" />
+                            </div>
+                            <!-- Google Maps / End -->
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </nav>
             </div>
+
             <div class="header-search-button">
               <button class="search-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
+            </div>
+          </div>
+
+          <div class="accordion accordion-flush d-none" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="cd-search animate__animated animate__fadeIn">
+            <form action="" class="w-100 h-100 d-flex">
+              <input type="text" placeholder="Search..." />
+            </form>
+            <div class="search-close" onmouseenter="rotateElement()">
+              <i class="fa-solid fa-xmark"></i>
             </div>
           </div>
         </div>
@@ -342,7 +1191,7 @@
                                 </tr>
                                 <tr>
                                   <td class="text-center">2</td>
-                                  <td><a href="#"><img src="assets/Img/table-1.jpg" alt="img"></a></td>
+                                  <td><a href="#"><img src="assets/Img/table-2.jpg" alt="img"></a></td>
                                   <td><a href="#" >SUNGLASSES</a></td>
                                   <td><div class="font-black">$90.15</div></td>
                                   <td>
@@ -355,7 +1204,7 @@
                                 </tr>
                                 <tr>
                                   <td class="text-center">3</td>
-                                  <td><a href="#"><img src="assets/Img/table-1.jpg" alt="img"></a></td>
+                                  <td><a href="#"><img src="assets/Img/table-3.jpg" alt="img"></a></td>
                                   <td><a href="#" >HEM SHELL TOP</a></td>
                                   <td><div class="font-black">$100.75</div></td>
                                   <td>
@@ -452,13 +1301,8 @@
                 </div>
             </div>
         </div>
-     </section>
+      </section>
 
-
-     
-
-     
-      
 
       <section class="nl-cont">
         <div class="container">
@@ -638,6 +1482,15 @@
               <a href="#">
                 <i class="fa-brands fa-twitter"></i>
               </a>
+              <a href="#">
+                <i class="fa-brands fa-behance"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-dribbble"></i>
+              </a>
             </div>
             <div class="left">
               <a href="#">
@@ -665,6 +1518,8 @@
       crossorigin="anonymous"
     ></script>
 
+
+    <script src="assets/Js/app.js"></script>
 
     
 
