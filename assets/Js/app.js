@@ -4,6 +4,7 @@ let search_btn = document.querySelector(".search-btn");
 let header = document.querySelector(".header");
 let bars = document.querySelector(".bars-btn");
 let accordion = document.querySelector(".accordion");
+let back = document.querySelector("#back-top");
 
 search_btn.addEventListener("click",()=>{
     cd_search.style.display ="flex";
@@ -23,10 +24,11 @@ window.addEventListener("scroll",()=>{
     let distance = window.scrollY;
     if(distance>1){
         header.className="header-scroll"
-        console.log("#e");
+        back.style.display="block"
     }
     else{
-        header.className="header"
+        header.className="header";
+        back.style.display="none";
     }
 
 
